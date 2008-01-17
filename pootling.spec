@@ -14,6 +14,7 @@ Group: Editors
 Url: http://translate.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
+BuildRequires: python-devel
 Requires: python-qt4
 
 %description
