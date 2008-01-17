@@ -15,7 +15,7 @@ Url: http://translate.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
-Requires: python-qt4
+Requires: python-translate python-qt4
 
 %description
 Pootling is an user-friendly offline translation editor that make the
