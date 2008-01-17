@@ -29,6 +29,8 @@ offer you easier translation, better tools and user-friendly.
 %prep
 %setup -q
 %patch0 -p1 -b .version
+# fix prefix path for images
+perl -pi -e 's,/usr/local,%{_prefix},' %{name}/modules/MainEditor.py 
 
 %build
 python %{name}setup.py build
