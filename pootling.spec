@@ -7,6 +7,8 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 Source0: http://downloads.sourceforge.net/translate/%{name}-%{version}.tar.gz
+# (blino) fix importing __version__
+Patch0: pootling-0.2-version.patch
 License: GPL
 Group: Editors
 Url: http://translate.sourceforge.net/
@@ -26,6 +28,7 @@ offer you easier translation, better tools and user-friendly.
 
 %prep
 %setup -q
+%patch0 -p1 -b .version
 
 %build
 python %{name}setup.py build
