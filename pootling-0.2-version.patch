@@ -1,0 +1,12 @@
+diff -p -up pootling-0.2/pootling/pootling-editor.py.version pootling-0.2/pootling/pootling-editor.py
+--- pootling-0.2/pootling/pootling-editor.py.version	2007-07-31 04:59:45.000000000 +0000
++++ pootling-0.2/pootling/pootling-editor.py	2008-01-17 18:13:21.000000000 +0000
+@@ -22,7 +22,7 @@ from optparse import OptionParser
+ from pootling.modules import MainEditor
+ from PyQt4 import QtCore, QtGui
+ import sys, os
+-import __version__
++from pootling import __version__
+ 
+ if (sys.argv[0].endswith('py')):
+     py = 'python '
