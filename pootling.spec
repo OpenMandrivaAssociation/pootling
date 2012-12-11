@@ -48,3 +48,31 @@ rm -rf %{buildroot}
 %{_bindir}/%{name}-editor.py
 %{python_sitelib}/%{name}-%{version}-*.egg-info
 %{python_sitelib}/%{name}
+
+
+%changelog
+* Tue Sep 15 2009 Thierry Vignaud <tv@mandriva.org> 0.2-6mdv2010.0
++ Revision: 441898
+- rebuild
+
+* Tue Jan 06 2009 Funda Wang <fwang@mandriva.org> 0.2-5mdv2009.1
++ Revision: 325806
+- rebuild
+
+* Fri Aug 01 2008 Thierry Vignaud <tv@mandriva.org> 0.2-4mdv2009.0
++ Revision: 259186
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 0.2-3mdv2009.0
++ Revision: 247129
+- rebuild
+
+* Thu Jan 17 2008 Olivier Blin <oblin@mandriva.com> 0.2-1mdv2008.1
++ Revision: 154352
+- require python-translate
+- buildrequire python-devel
+- fix prefix path for images
+- fix importing __version__
+- initial pootling package
+- create pootling
+
