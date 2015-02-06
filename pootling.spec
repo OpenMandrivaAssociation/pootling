@@ -1,6 +1,6 @@
 %define name pootling
 %define version 0.2
-%define release %mkrel 6
+%define release 7
 
 Summary: GUI editor for offline translation editing
 Name: %{name}
