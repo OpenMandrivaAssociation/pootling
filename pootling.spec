@@ -11,7 +11,7 @@ Source0: http://downloads.sourceforge.net/translate/%{name}-%{version}.tar.gz
 Patch0: pootling-0.2-version.patch
 License: GPL
 Group: Editors
-Url: http://translate.sourceforge.net/
+Url: https://translate.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch: noarch
 BuildRequires: python-devel
